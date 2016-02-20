@@ -1,6 +1,6 @@
-# learning
-only wiki
+##[wiki](https://github.com/punkieL/learning/wiki)
+
+there is only [wiki](https://github.com/punkieL/learning/wiki)
 
 ---
 
-##[wiki](https://github.com/punkieL/learning/wiki)
