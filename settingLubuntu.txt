@@ -1,0 +1,86 @@
+20160201
+1.ubuntu software center
+2.shortcut
+	1)workspace shortcut
+	2)terminal, windows key shortcut
+3.terminal switch
+4.java
+5.gparted,grub...
+6.screen setting
+7.IME
+8.disable touch panel
+9.virtual box--common folder
+10.zsh
+11.VBoxManage startvm "VM name" --type headless
+12.install Pandoc 
+13.	laptop lid close
+14.volumn   pavucontrol
+15.disable lubuntu desktop switch
+
+2.shortcut
+~/.config/openbox/lubuntu-rc.xml
+
+3.terminal switch
+sudo update-alternatives --config x-terminal-emulator
+
+6.screen setting
+xrandr --output VBOX1 --right-of VBOX0
+
+~/.config/autostart/multidisplay.desktop
+
+[Desktop Entry]
+Name=multidisplay
+Exec=xrandr --output VBOX1 --right-of VBOX0
+Type=Application
+
+7.IME
+apt-get install fcitx fcitx-mozc fcitx-libs-qt5 fcitx-frontend-qt5
+im-config -n fcitx
+
+fcitx-mozc  --> ON
+
+8.disable touch panel
+xinput --list
+xinput set-prop 15 "Device Enabled" 0 
+
+9.virtual box--common folder
+just mount it.
+
+sudo mount -t vboxsf commonFolder /home/commonFolderName
+
+
+----------------------------------------
+
+sudo apt-get update
+sudo apt-get install -y openssh-server
+
+vboxmanage startvm UbuntuServer --type headless
+vboxmanage controlvm UbuntuServer poweroff
+
+
+13.laptop lid close 
+http://askubuntu.com/questions/517581/lubuntu-14-04-how-to-avoid-lock-screen-on-closing-laptop-lid
+
+xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/logind-handle-lid-switch -s true
+
+/etc/systemd/logind.conf
+logind.conf
+HandleLidSwitch=ignore
+
+
+
+
+15.disable lubuntu desktop
+
+vi ~/.config/openbox/lubuntu-rc.xml
+
+      <mousebind button="Up" action="Click">
+        <action name="GoToDesktop">
+          <to>previous</to>
+        </action>
+      </mousebind>
+      <mousebind button="Down" action="Click">
+        <action name="GoToDesktop">
+          <to>next</to>
+        </action>
+      </mousebind>
