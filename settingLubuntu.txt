@@ -16,6 +16,7 @@
 13.	laptop lid close
 14.volumn   pavucontrol
 15.disable lubuntu desktop switch
+16.bakground img /etc/lxdm/default.conf
 
 2.shortcut
 ~/.config/openbox/lubuntu-rc.xml
