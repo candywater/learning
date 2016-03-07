@@ -6,3 +6,4 @@ vim-colors-solarized
 atom
 zsh
 IME
+shutter
