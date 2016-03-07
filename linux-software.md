@@ -1,0 +1,8 @@
+dropbox
+git
+vim
+emacs
+vim-colors-solarized
+atom
+zsh
+IME
