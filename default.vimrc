@@ -9,8 +9,8 @@ set cindent
 set mouse=a
 
 set encoding=UTF-8
+syntax enable
 "solarized
 "http://ethanschoonover.com/solarized/vim-colors-solarized
-syntax enable
 "set background=dark
 "colorscheme solarized
