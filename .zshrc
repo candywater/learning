@@ -3,7 +3,7 @@
 #autoload -Uz promptinit
 #promptinit
 #prompt adam1
-PROMPT='%n@%m [%~][%D][%*]
+PROMPT='%F{7}%K{4}%n@%m%k%f [%~][%D][%*]
 $ '
 
 
