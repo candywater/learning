@@ -1,0 +1,4 @@
+
+
+sh -T github
+git remote set-url origin git@github.com:[ユーザID]/[リポジトリ].git
