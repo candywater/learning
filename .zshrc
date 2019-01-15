@@ -5,9 +5,19 @@
 #prompt adam1
 PROMPT='%F{7}%K{4}%n@%m%k%f [%~][%D][%*]
 $ '
-
-
 setopt histignorealldups sharehistory
+
+#git
+autoload -Uz vcs_info
+setopt prompt_subst
+zstyle ':vcs_info:git:*' check-for-changes true
+zstyle ':vcs_info:git:*' stagedstr "%F{yellow}!"
+zstyle ':vcs_info:git:*' unstagedstr "%F{red}+"
+zstyle ':vcs_info:git:*' formats "%F{green}%c%u[%b]%f"
+zstyle ':vcs_info:git:*' actionformats '[%b|%a]'
+precmd() {vcs_info}
+RPROMPT='${vcs_info_msg_0_}'
+
 
 # Use emacs keybindings even if our EDITOR is set to vi
 bindkey -e
