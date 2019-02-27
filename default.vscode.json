@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
+    "git.ignoreMissingGitWarning": true,
+    "editor.fontFamily": "Consolas, 'Courier New', monospace, Meiryo UI",
+    "editor.renderWhitespace": "all",
+    "editor.tabSize": 2,
+    "editor.useTabStops": false,
+    "extensions.ignoreRecommendations": true,
+}
