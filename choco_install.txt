@@ -1,0 +1,23 @@
+:: editor
+choco install -y pycharm-community vscode notepadplusplus neovim intellijidea-community nano
+
+:: game
+choco install -y steam foobar2000  discord msiafterburner
+
+:: tools
+choco install -y winrar ccleaner  inkscape teamviewer greenshot dropbox openoffice rufus veracrypt xnviewmp   rdcman processhacker
+
+:: video
+choco install -y ffmpeg handbrake vlc quicktime  obs-studio 
+
+:: dev-tools
+choco install -y tortoisegit git autohotkey curl wget virtualbox winscp vagrant cmder dbeaver wireshark bitvise-ssh-client 
+
+:: dev-complier
+choco install -y openjdk python3 nodejs golang 
+
+:: dev
+choco install -y vcredist140 cmake android-sdk openvpn sqlite docker gpg4win hwinfo  anaconda3
+
+:: browser
+choco install -y chromium firefox opera thunderbird tor-browser googlechrome
