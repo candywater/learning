@@ -5,7 +5,8 @@ choco install -y pycharm-community vscode notepadplusplus neovim intellijidea-co
 choco install -y steam foobar2000  discord msiafterburner
 
 :: tools
-choco install -y winrar ccleaner  inkscape teamviewer greenshot dropbox openoffice rufus veracrypt xnviewmp rdcman processhacker keepass
+choco install -y bleachbit ccleaner  inkscape teamviewer greenshot dropbox openoffice rufus veracrypt xnviewmp rdcman processhacker keepass
+choco install -y winrar /English
 
 :: video
 choco install -y ffmpeg handbrake vlc quicktime  obs-studio 
