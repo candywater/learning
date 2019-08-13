@@ -1,1 +1,1 @@
-#+s::Return
+#+f::Return
