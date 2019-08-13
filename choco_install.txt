@@ -9,7 +9,7 @@ choco install -y bleachbit ccleaner  inkscape teamviewer greenshot dropbox openo
 choco install -y winrar /English
 
 :: video
-choco install -y ffmpeg handbrake vlc quicktime  obs-studio 
+choco install -y ffmpeg handbrake vlc quicktime  obs-studio  Audacity
 
 :: dev-tools
 choco install -y tortoisegit git autohotkey curl wget virtualbox winscp vagrant cmder dbeaver wireshark bitvise-ssh-client 
