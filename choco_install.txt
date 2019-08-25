@@ -1,5 +1,6 @@
 :: editor
-choco install -y pycharm-community vscode notepadplusplus neovim intellijidea-community nano
+choco install -y vscode notepadplusplus neovim nano
+:: pycharm-community intellijidea-community
 
 :: game
 choco install -y steam foobar2000  discord msiafterburner
