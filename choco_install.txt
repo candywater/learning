@@ -25,4 +25,4 @@ choco install -y openjdk python3 nodejs golang
 choco install -y vcredist140 cmake android-sdk openvpn sqlite docker gpg4win hwinfo  anaconda3
 
 :: browser
-choco install -y chromium firefox opera thunderbird tor-browser googlechrome vivaldi
+choco install -y chromium firefox opera thunderbird tor-browser googlechrome vivaldi microsoft-edge
