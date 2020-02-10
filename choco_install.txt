@@ -12,6 +12,9 @@ choco install -y winrar /English
 :: video
 choco install -y ffmpeg handbrake vlc quicktime  obs-studio  Audacity
 
+:: sound
+choco install -y equalizerapo 
+
 :: dev-tools
 choco install -y tortoisegit git autohotkey curl wget virtualbox winscp vagrant cmder dbeaver wireshark bitvise-ssh-client 
 
