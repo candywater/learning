@@ -1,0 +1,1 @@
+scoop install curl cuda dart gcc gdb ninja openssl wget
