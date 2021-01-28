@@ -1,0 +1,10 @@
+{
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "editor.renderWhitespace": "boundary",
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": true,
+    "editor.wordWrap": "on",
+    "editor.fontFamily": "Consolas, 'Microsoft Yahei UI', 'Meiryo UI', 'Courier New', monospace",
+    "update.mode": "none",
+    "workbench.iconTheme": "material-icon-theme"
+}
